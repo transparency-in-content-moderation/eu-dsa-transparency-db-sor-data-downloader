@@ -1,0 +1,3 @@
+[submodule "zip2gz"]
+	path = zip2gz
+	url = https://github.com/patrikaxelsson/zip2gz.git
