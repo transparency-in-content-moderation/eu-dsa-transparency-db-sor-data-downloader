@@ -79,7 +79,13 @@ for zip in "$@"; do
     cd ..
 
     LOG__ "Converting CSV to Parquet: $name"
-    (echo "$DUCKDB_SETTINGS"; sed "s@__NAME__@$name@g" $BINDIR/../sql/convert_csv_parquet.sql) | duckdb
+    if (echo "$DUCKDB_SETTINGS"; sed "s@__NAME__@$name@g" $BINDIR/../sql/convert_csv_parquet.sql) | duckdb; then
+        : # ok, conversion succeeded
+    else
+        # conversion failed, try with "ignore_errors"
+        LOG__ "Retrying failed conversion CSV to Parquet (ignore_errors = true): $name"
+        (echo "$DUCKDB_SETTINGS"; sed "s@__NAME__@$name@g; s@--\\s*ignore_errors@ignore_errors@" $BINDIR/../sql/convert_csv_parquet.sql) | duckdb
+    fi
     LOG__ "Parquet conversion finished: $name.parquet.zst"
     mv -v "$name/$name.parquet.zst" $(dirname $zip)/
     rm -r "$name/"

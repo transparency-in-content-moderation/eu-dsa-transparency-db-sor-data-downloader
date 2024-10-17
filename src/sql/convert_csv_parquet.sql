@@ -8,6 +8,7 @@ copy (
           quote = '"',
           escape = '"',
           new_line = '\n',
+          -- ignore_errors = True,
           types = {
              'end_date_visibility_restriction': 'TIMESTAMP_MS',
              'end_date_monetary_restriction': 'TIMESTAMP_MS',
