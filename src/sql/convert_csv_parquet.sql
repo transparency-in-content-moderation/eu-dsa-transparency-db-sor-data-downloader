@@ -2,7 +2,7 @@ copy (
    select *
    exclude('uuid', 'platform_uid')
    from read_csv(
-          '__NAME__/*.csv.gz',
+          '*.csv.gz',
           header = True,
           delim = ',',
           quote = '"',
@@ -25,7 +25,7 @@ copy (
              'content_type': 'JSON',
              'territorial_scope': 'JSON'
              } )
-  ) to '__NAME__/__NAME__.parquet.zst' (
+  ) to '__NAME__.parquet.zst' (
           format 'parquet',
           codec 'zstd',
           compression_level 19,
