@@ -61,3 +61,8 @@ in the same folder than the corresponding CSV file.
 ```
 
 For more details and options, please run `sor-convert.sh -h`.
+
+
+## Results and Metrics of the Conversion
+
+Results and metrics of the conversion are shown on a separate page, [metrics/conversion_results.md](./metrics/conversion_results.md). Note that there is a small, but in absolute numbers non-trivial difference, between the number of SoRs indicated on the download table and as counted on the converted data.
