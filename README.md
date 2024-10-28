@@ -20,9 +20,9 @@ References:
   - 16 GiB RAM
   - 1-2 CPU
   - disk storage
-    - 20 GiB to hold temporary data
+    - 20 GiB to hold temporary data (for some daily archives more is needed, up to 80 GiB)
     - 200 MiB for daily data stored as Parquet
-    - 2-5 GiB for daily data CSV archives (if not removed after conversion)
+    - 2 GiB per daily zipped CSV archive, if not removed after conversion (few archives are larger, up to 35 GiB)
 
 
 ## Download Data
@@ -46,7 +46,7 @@ For example, the following line in the crontab file downloads the latest (two da
 SoR archive:
 
 ```crontab
-46 4 * * * bash -c 'cd eu-dsa-transparency-db-sor-data-downloader; ./src/script/sor-download.sh data/eu-dsa/sor-global/ &>logs/sor-download-$(date +\%Y-\%m-\%d).log'
+46 4 * * * bash -c 'cd eu-dsa-transparency-db-sor-data-downloader; DT=$(date --date="yesterday yesterday" "+\%Y-\%m-\%d"); ./src/script/sor-download.sh data/eu-dsa/sor-global/ $DT &>>logs/sor-download-$DT.log; ./src/script/sor-convert.sh -T tmp -D data/eu-dsa/sor-global/year=*/month=*/day=*/sor-global-$DT-full.zip &>>logs/sor-convert-$DT.log'
 ```
 
 

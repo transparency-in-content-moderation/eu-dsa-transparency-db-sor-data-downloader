@@ -43,7 +43,7 @@ LOG__ "Downloading EU DSA Transparency DB SoR daily archives..."
 LOG__ "start = $START, days = $DAYS, target directory = $TARGET_DIRECTORY"
 
 if [ -z "$START" ]; then
-    # default: fetch data from two days ago, because yesterday's data may not be yet ready
+    # default: fetch data from two days ago, because yesterday's data may not be ready yet
     START=$(date --date="yesterday yesterday" '+%Y-%m-%d')
 fi
 
