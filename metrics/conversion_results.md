@@ -15,7 +15,49 @@ The column "Parq size" shows the size of the Parquet file after the conversion.
 
 |    Date    |     SoRs     |  CSV size |  ZIP size | SoR diff | Convrtd rows | Parq size |
 | :--------- | -----------: | --------: | --------: | -------: | -----------: | --------: |
-| 2024-12-01 |   51,588,386 |  51.79 GB |   2.48 GB |        0 |            ? |         ? |
+| 2025-01-12 |   50,567,125 |  51.66 GB |   2.48 GB |        0 |            ? |         ? |
+| 2025-01-11 |   58,758,855 |  59.72 GB |   2.79 GB |        0 |            = |    154 MB |
+| 2025-01-10 |   45,669,641 |  46.51 GB |   2.22 GB |        0 |            = |    115 MB |
+| 2025-01-09 |   58,692,740 |  60.40 GB |   2.85 GB |        0 |            = |    158 MB |
+| 2025-01-08 |   56,481,332 |  56.04 GB |   2.78 GB |        0 |            = |    168 MB |
+| 2025-01-07 |   53,916,045 |  55.55 GB |   2.48 GB |        0 |            = |    132 MB |
+| 2025-01-06 |   55,413,468 |  56.74 GB |   2.60 GB |        0 |            = |    140 MB |
+| 2025-01-05 |   57,641,361 |  59.59 GB |   2.75 GB |        0 |            = |    145 MB |
+| 2025-01-04 |   54,029,687 |  54.91 GB |   2.66 GB |        0 |            = |    136 MB |
+| 2025-01-03 |   55,041,640 |  55.32 GB |   2.65 GB |        0 |            = |    143 MB |
+| 2025-01-02 |   58,726,048 |  59.58 GB |   2.86 GB |        0 |            = |    156 MB |
+| 2025-01-01 |   45,729,979 |  46.33 GB |   2.22 GB |        0 |            = |    121 MB |
+| 2024-12-31 |   48,627,198 |  49.48 GB |   2.26 GB |        0 |            = |    124 MB |
+| 2024-12-30 |   47,323,864 |  48.23 GB |   2.23 GB |       -6 |   47,323,858 |    115 MB |
+| 2024-12-29 |   45,821,691 |  46.40 GB |   2.24 GB |        0 |            = |    121 MB |
+| 2024-12-28 |   48,136,918 |  48.18 GB |   2.44 GB |        0 |            = |    125 MB |
+| 2024-12-27 |   54,882,364 |  55.35 GB |   2.85 GB |        0 |            = |    138 MB |
+| 2024-12-26 |   56,208,828 |  55.88 GB |   2.92 GB |        0 |            = |    135 MB |
+| 2024-12-25 |   51,445,220 |  51.92 GB |   2.55 GB |        0 |            = |    132 MB |
+| 2024-12-24 |   54,656,089 |  55.26 GB |   2.57 GB |        0 |            = |    132 MB |
+| 2024-12-23 |   51,656,984 |  52.06 GB |   2.50 GB |        0 |            = |    132 MB |
+| 2024-12-22 |   53,273,713 |  54.06 GB |   2.57 GB |        0 |            = |    132 MB |
+| 2024-12-21 |   50,630,326 |  53.43 GB |   2.50 GB |        0 |            = |    130 MB |
+| 2024-12-20 |   54,673,021 |  58.30 GB |   2.67 GB |        0 |            = |    143 MB |
+| 2024-12-19 |   57,510,521 |  60.63 GB |   2.87 GB |        1 |   57,510,522 |    159 MB |
+| 2024-12-18 |   61,215,631 |  67.48 GB |   3.10 GB |        1 |   61,215,632 |    168 MB |
+| 2024-12-17 |   51,047,229 |  54.70 GB |   2.63 GB |        0 |            = |    137 MB |
+| 2024-12-16 |   57,643,919 |  58.88 GB |   2.65 GB |        0 |            = |    133 MB |
+| 2024-12-15 |   47,814,728 |  48.02 GB |   2.27 GB |        0 |            = |    122 MB |
+| 2024-12-14 |   53,914,567 |  54.71 GB |   2.63 GB |        0 |            = |    137 MB |
+| 2024-12-13 |   59,823,273 |  60.47 GB |   2.83 GB |        0 |            = |    146 MB |
+| 2024-12-12 |   56,992,585 |  56.05 GB |   2.75 GB |        0 |            = |    154 MB |
+| 2024-12-11 |   56,760,279 |  57.97 GB |   2.93 GB |        0 |            = |    167 MB |
+| 2024-12-10 |   49,502,658 |  50.47 GB |   2.50 GB |        0 |            = |    142 MB |
+| 2024-12-09 |   50,595,958 |  50.93 GB |   2.51 GB |        1 |   50,595,959 |    139 MB |
+| 2024-12-08 |   72,451,030 |  78.87 GB |   3.69 GB |        1 |   72,451,031 |    209 MB |
+| 2024-12-07 |   70,165,340 |  77.57 GB |   3.57 GB |        0 |            = |    206 MB |
+| 2024-12-06 |  100,967,075 | 106.64 GB |   4.88 GB |        1 |  100,967,076 |    299 MB |
+| 2024-12-05 |   76,064,776 |  74.76 GB |   3.89 GB |        3 |   76,064,779 |    218 MB |
+| 2024-12-04 |   53,906,653 |  53.93 GB |   2.63 GB |        0 |            = |    151 MB |
+| 2024-12-03 |   53,198,086 |  53.14 GB |   2.63 GB |        0 |            = |    151 MB |
+| 2024-12-02 |   49,972,873 |  50.15 GB |   2.41 GB |        0 |            = |    137 MB |
+| 2024-12-01 |   51,588,386 |  51.79 GB |   2.48 GB |        0 |            = |    138 MB |
 | 2024-11-30 |   54,215,569 |  54.29 GB |   2.62 GB |        0 |            = |    145 MB |
 | 2024-11-29 |   57,382,461 |  57.48 GB |   2.77 GB |        0 |            = |    152 MB |
 | 2024-11-28 |   54,103,753 |  54.35 GB |   2.58 GB |        0 |            = |    142 MB |
@@ -550,7 +592,16 @@ The table is updated from time to time based on the conversion logs.
     ```
     Invalid Input Error: CSV Error on Line: 72241
     Original Line: 798f0b1e-8881-4f42-bc67-f6a5057601e2,"[""DECISION_VISIBILITY_CONTENT_REMOVED""]",,,,,,,,,,,DECISION_GROUND_INCOMPATIBLE_CONTENT,,,,"The following functionality stated in the item's description are not  working or were not reproducible in our review:         - ""app.brosh.io refused to connect and displayed an error on the console     log regarding Content Security Policy directive: \"frame-ancestors 'self'.""","Relevant section of the program policy:         - If any of your Product's content, title, icon, description or     screenshots contains false or misleading information, we may remove it. (learn     more)     <https://developer.chrome.com/webstore/program_policies#content_policies>",,STATEMENT_CATEGORY_SCOPE_OF_PLATFORM_SERVICE,,,,"[""CONTENT_TYPE_APP""]",,,"2024-09-13 00:00:00","[""AT"",""BE"",""BG"",""CY"",""CZ"",""DE"",""DK"",""EE"",""ES"",""FI"",""FR"",""GR"",""HR"",""HU"",""IE"",""IS"",""IT"",""LI"",""LT"",""LU"",""LV"",""MT"",""NL"",""NO"",""PL"",""PT"",""RO"",""SE"",""SI"",""SK""]","2024-09-14 00:00:00","When reviewing content or accounts to determine whether they are illegal or violate our policies, we take various information into consideration when making a decision, including extension metadata (e.g., extension title, description), in-extension experience, account information (e.g., past history of policy violations), and other information provided through reporting mechanisms (where applicable) and own-initiative reviews.",SOURCE_VOLUNTARY,,Yes,AUTOMATED_DECISION_NOT_AUTOMATED,"Chrome Web Store",689432173688,"2024-09-14 10:18:00"
-    Value with unterminated quote found.    ```
+    Value with unterminated quote found.
+    ```
+- 2024-12-30
+  - ZIP file: [sor-global-2024-12-30-full.zip](https://dsa-sor-data-dumps.s3.eu-central-1.amazonaws.com/sor-global-2024-12-30-full.zip)
+  - CSV file: `sor-global-2024-12-30-full-00046-00003.csv`
+  - error message
+    ```
+    Invalid Input Error: CSV Error on Line: 98935
+    Original Line: 29f17782-3d6b-42f7-875d-d70aedecdbfb,"[""DECISION_VISIBILITY_CONTENT_DISABLED""]",,,,,,,,,,ACCOUNT_TYPE_BUSINESS,DECISION_GROUND_INCOMPATIBLE_CONTENT,,,,"Controlled Product","尊敬的全球速卖通卖家：\n该商品具体违规原因为：\n1.标签不合规\n- 关于标准 NF EN 71-1 的第 7.1 点，在本标准规定的年龄排除（0 - 36 个月）警告 7.2 之前缺少“注意”一词；\n- 标准 NF EN 71-1 的年龄排除警告 7.2 不正确。它不是用法语写的。\n2.窒息风险：\n-不符合EN 71-1第5.1b点，小元件（板边缘的泡沫片）存在摄入风险。\n基于速卖通平台商品政策要求，平台对该商品执行了欧盟屏蔽，如您对处罚有异议，您可在处罚后通过商家后台违规中心发起线上申诉，申诉时请提交CE/UKCA相关资质文件，包括检测报告，外包装标签及认证证书或符合性声明DoC（DoP），感谢您的理解与配合!\nDear AliExpress sellers:\nThe specific reasons for the violation of this product are:\n1. Label non-compliance\n- Regarding point 7.1 of standard NF EN 71-1, the word \"Caution\" is missing before warning 7.2 on age exclusion (0 - 36 months) specified in this standard;\n- Warning 7.2 on age exclusion of standard NF EN 71-1 is incorrect. It is not written in French.\n2. Choking risk:\n- Point 5.1b of EN 71-1 is not met, and small components (foam sheets on the edge of the board) pose an ingestion risk.\nBased on the product policy requirements of the AliExpress platform, the platform has implemented EU shielding for this product. If you have any objections to the penalty, you can file an online appeal through the merchant backend violation center after the penalty. When appealing, please submit CE/UKCA related qualification documents, including test reports, outer packaging labels and certification certificates or Declaration of Conformity DoC (DoP). Thank you for your understanding and cooperation!",No,STATEMENT_CATEGORY_UNSAFE_AND_ILLEGAL_PRODUCTS,,,,"[""CONTENT_TYPE_PRODUCT""]",,,"2020-12-02 00:00:00","[""AT"",""BE"",""BG"",""CY"",""CZ"",""DE"",""DK"",""EE"",""ES"",""FI"",""FR"",""GR"",""HR"",""HU"",""IE"",""IT"",""LT"",""LU"",""LV"",""MT"",""NL"",""PL"",""PT"",""RO"",""SE"",""SI"",""SK""]","2024-12-30 00:00:00","\n该商品具体违规原因为：\n1.标签不合规\n- 关于标准 NF EN 71-1 的第 7.1 点，在本标准规定的年龄排除（0 - 36 个月）警告 7.2 之前缺少“注意”一词；\n- 标准 NF EN 71-1 的年龄排除警告 7.2 不正确。它不是用法语写的。\n2.窒息风险：\n-不符合EN 71-1第5.1b点，小元件（板边缘的泡沫片）存在摄入风险。\n基于速卖通平台商品政策要求，平台对该商品执行了欧盟屏蔽，如您对处罚有异议，您可在处罚后通过商家后台违规中心发起线上申诉，申诉时请提交CE/UKCA相关资质文件，包括检测报告，外包装标签及认证证书或符合性声明DoC（DoP），感谢您的理解与配合!\nDear AliExpress sellers:\nThe specific reasons for the violation of this product are:\n1. Label non-compliance\n- Regarding point 7.1 of standard NF EN 71-1, the word \"Caution\" is missing before warning 7.2 on age exclusion (0 - 36 months) specified in this standard;\n- Warning 7.2 on age exclusion of standard NF EN 71-1 is incorrect. It is not written in French.\n2. Choking risk:\n- Point 5.1b of EN 71-1 is not met, and small components (foam sheets on the edge of the board) pose an ingestion risk.\nBased on the product policy requirements of the AliExpress platform, the platform has implemented EU shielding for this product. If you have any objections to the penalty, you can file an online appeal through the merchant backend violation center after the penalty. When appealing, please submit CE/UKCA related qualification documents, including test reports, outer packaging labels and certification certificates or Declaration of Conformity DoC (DoP). Thank you for your understanding and cooperation!",SOURCE_VOLUNTARY,,Yes,AUTOMATED_DECISION_PARTIALLY,AliExpress,80902213542,"2024-12-30 21:50:14"
+Value with unterminated quote found.
     ```
 - 
   - ZIP file: []()
