@@ -53,4 +53,4 @@ copy (
           format 'parquet',
           codec 'zstd',
           compression_level 19,
-          row_group_size 6291456 )
+          row_group_size 5767168 )
