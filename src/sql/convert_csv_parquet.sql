@@ -49,7 +49,7 @@ copy (
             'platform_uid':                     'VARCHAR',
             'created_at':                       'TIMESTAMP_MS'
           } )
-  ) to '__NAME__.parquet.zst' (
+  ) to '__NAME__.zstd.parquet' (
           format 'parquet',
           codec 'zstd',
           compression_level 19,

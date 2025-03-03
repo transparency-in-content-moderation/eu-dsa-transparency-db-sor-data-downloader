@@ -59,11 +59,11 @@ for zip in "$@"; do
 
     name="$(basename $zip .zip)"
 
-    if [ -e $(dirname $zip)/$name.parquet.zst ]; then
+    if [ -e $(dirname $zip)/$name.zstd.parquet ]; then
         if $OVERWRITE; then
-            LOG__ "Parquet file $(dirname $zip)/$name.parquet.zst already exists, overwriting..."
+            LOG__ "Parquet file $(dirname $zip)/$name.zstd.parquet already exists, overwriting..."
         else
-            LOG__ "Parquet file $(dirname $zip)/$name.parquet.zst already exists, skipping conversion"
+            LOG__ "Parquet file $(dirname $zip)/$name.zstd.parquet already exists, skipping conversion"
             continue
         fi
     fi
@@ -90,10 +90,10 @@ for zip in "$@"; do
         LOG__ "Retrying failed conversion CSV to Parquet (ignore_errors = true): $name"
         (echo "$DUCKDB_SETTINGS"; sed "s@__NAME__@$name@g; s@--\\s*ignore_errors@ignore_errors@" $BINDIR/../sql/convert_csv_parquet.sql) | duckdb
     fi
-    LOG__ "Parquet conversion finished: $name.parquet.zst"
+    LOG__ "Parquet conversion finished: $name.zstd.parquet"
 
     cd -
-    mv -v "$TMP_DIR"/"$name"/"$name.parquet.zst" $(dirname $zip)/
+    mv -v "$TMP_DIR"/"$name"/"$name.zstd.parquet" $(dirname $zip)/
     rm -r "$TMP_DIR"/"$name"/
 
     if $CLEANUP_ZIP; then
