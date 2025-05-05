@@ -78,3 +78,69 @@ In order to save storage space and computation during conversion, compression st
 
 Results and metrics of the conversion are shown on a separate page, [metrics/conversion_results.md](./metrics/conversion_results.md). Note that there is a small, but in relative numbers trivial difference, between the number of SoRs indicated on the download table and as counted on the converted data.
 
+
+## Explore the Converted Database Using DuckDB
+
+Below a short Shell/DuckDB session explaining how to start exploring the database:
+
+```sh
+# list the content of the data directory
+# (just to make sure we're on the right place)
+$> ls data/eu-dsa/sor-global/
+'year=2023'  'year=2024'  'year=2025'
+
+# launch DuckDb
+$> duckdb
+v1.1.3 19864453f7
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+
+D -- define the view "eu_dsa_sor" to make work with the Parquet files easier
+D create or replace view eu_dsa_sor as
+  select *
+  from read_parquet('data/eu-dsa/sor-global/*/*/*/*.zstd.parquet',
+                    hive_partitioning = True);
+
+D -- number of rows in the table
+D select count(*) from eu_dsa_sor;
+┌──────────────┐
+│ count_star() │
+│    int64     │
+├──────────────┤
+│  30840943675 │
+└──────────────┘
+
+D -- number of rows per year
+D select count(*), year from eu_dsa_sor group by year order by year;
+┌──────────────┬───────┐
+│ count_star() │ year  │
+│    int64     │ int64 │
+├──────────────┼───────┤
+│   1404823766 │  2023 │
+│  22240518416 │  2024 │
+│   7195601493 │  2025 │
+└──────────────┴───────┘
+
+D -- show the table schema
+D -- (list the 38 rows and their data type,
+D --  including the 3 partition columns year, month and day)
+D describe eu_dsa_sor;
+┌──────────────────────────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│           column_name            │ column_type │  null   │   key   │ default │  extra  │
+│             varchar              │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├──────────────────────────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ decision_visibility              │ JSON        │ YES     │         │         │         │
+│ decision_visibility_other        │ VARCHAR     │ YES     │         │         │         │
+│ end_date_visibility_restriction  │ TIMESTAMP   │ YES     │         │         │         │
+│ decision_monetary                │ VARCHAR     │ YES     │         │         │         │
+│ ...                              │ ...         │ ...     │         │         │         │
+│ day                              │ VARCHAR     │ YES     │         │         │         │
+│ month                            │ VARCHAR     │ YES     │         │         │         │
+│ year                             │ BIGINT      │ YES     │         │         │         │
+├──────────────────────────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┤
+│ 38 rows                                                                      6 columns │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+
+D .exit
+```
