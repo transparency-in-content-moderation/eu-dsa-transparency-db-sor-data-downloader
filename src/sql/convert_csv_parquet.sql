@@ -38,6 +38,7 @@ copy (
             'content_type_other':               'VARCHAR',
             'content_language':                 'VARCHAR',
             'content_date':                     'TIMESTAMP_MS',
+            'content_id_ean':                   'JSON',
             'territorial_scope':                'JSON',
             'application_date':                 'TIMESTAMP_MS',
             'decision_facts':                   'VARCHAR',
