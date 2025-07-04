@@ -15,7 +15,66 @@ The column "Parq size" shows the size of the Parquet file after the conversion.
 
 |    Date    |     SoRs     |  CSV size |  ZIP size | SoR diff | Convrtd rows | Parq size |
 | :--------- | -----------: | --------: | --------: | -------: | -----------: | --------: |
-| 2025-05-04 |   49,286,185 |  50.40 GB |   2.42 GB |        0 |            ? |         ? |
+| 2025-07-02 |   17,352,388 |  17.77 GB |   0.96 GB |       63 |   17,352,451 |     54 MB |
+| 2025-07-01 |   17,605,854 |  18.35 GB |   0.96 GB |    -2978 |   17,602,876 |     50 MB |
+| 2025-06-30 |   16,686,912 |  17.00 GB |   0.96 GB |     3019 |   16,689,931 |     59 MB |
+| 2025-06-29 |   18,120,866 |  18.59 GB |   1.02 GB |        0 |            = |     59 MB |
+| 2025-06-28 |   17,532,514 |  18.25 GB |   1.02 GB |        0 |            = |     59 MB |
+| 2025-06-27 |   22,026,836 |  22.41 GB |   1.28 GB |       79 |   22,026,915 |     82 MB |
+| 2025-06-26 |   27,288,532 |  28.20 GB |   1.54 GB |      -41 |   27,288,491 |     99 MB |
+| 2025-06-25 |   20,426,393 |  21.05 GB |   1.19 GB |        0 |            = |     76 MB |
+| 2025-06-24 |   17,725,350 |  18.45 GB |   1.01 GB |        0 |            = |     61 MB |
+| 2025-06-23 |   15,679,095 |  16.25 GB | 918.14 MB |        0 |            = |     47 MB |
+| 2025-06-22 |   16,377,199 |  17.04 GB | 942.50 MB |        0 |            = |     50 MB |
+| 2025-06-21 |   18,448,995 |  19.97 GB |   1.05 GB |        0 |            = |     53 MB |
+| 2025-06-20 |   16,702,278 |  17.94 GB |   0.95 GB |        0 |            = |     49 MB |
+| 2025-06-19 |   17,178,046 |  18.55 GB |   0.99 GB |        0 |            = |     57 MB |
+| 2025-06-18 |   17,018,799 |  18.52 GB |   1.00 GB |        0 |            = |     56 MB |
+| 2025-06-17 |   17,622,699 |  18.87 GB |   1.20 GB |        0 |            = |     58 MB |
+| 2025-06-16 |   16,974,008 |  18.33 GB |   0.97 GB |        0 |            = |     54 MB |
+| 2025-06-15 |   22,484,732 |  24.94 GB |   1.18 GB |        0 |            = |     53 MB |
+| 2025-06-14 |   20,100,082 |  24.06 GB |   1.18 GB |     1575 |   20,101,657 |     58 MB |
+| 2025-06-13 |   19,987,912 |  24.07 GB |   1.21 GB |       20 |   19,987,932 |     75 MB |
+| 2025-06-12 |   20,459,503 |  23.09 GB |   1.20 GB |        0 |            = |     66 MB |
+| 2025-06-11 |   19,637,183 |  22.28 GB |   1.13 GB |        0 |            = |     69 MB |
+| 2025-06-10 |   17,985,374 |  18.83 GB |   1.00 GB |        0 |            = |     63 MB |
+| 2025-06-09 |   22,392,149 |  23.61 GB |   1.14 GB |        0 |            = |     63 MB |
+| 2025-06-08 |   20,815,857 |  22.40 GB |   1.12 GB |       25 |   20,815,882 |     67 MB |
+| 2025-06-07 |   26,071,378 |  28.19 GB |   1.35 GB |        9 |   26,071,387 |     68 MB |
+| 2025-06-06 |   23,680,207 |  24.85 GB |   1.21 GB |        0 |            = |     65 MB |
+| 2025-06-05 |   26,445,566 |  25.86 GB |   1.90 GB |        0 |            = |     61 MB |
+| 2025-06-04 |   21,944,627 |  22.49 GB |   1.36 GB |     2958 |   21,947,585 |     68 MB |
+| 2025-06-03 |   21,454,360 |  21.91 GB |   1.33 GB |     1436 |   21,455,796 |     64 MB |
+| 2025-06-02 |   19,829,971 |  20.81 GB |   1.08 GB |      173 |   19,830,144 |     63 MB |
+| 2025-06-01 |   18,170,963 |  19.09 GB |   1.05 GB |        0 |            = |     61 MB |
+| 2025-05-31 |   20,327,748 |  21.45 GB |   1.14 GB |        0 |            = |     60 MB |
+| 2025-05-30 |   21,250,836 |  22.25 GB |   1.22 GB |        0 |            = |     73 MB |
+| 2025-05-29 |   39,710,069 |  40.89 GB |   2.04 GB |        0 |            = |    116 MB |
+| 2025-05-28 |   40,714,548 |  42.54 GB |   2.19 GB |        0 |            = |    123 MB |
+| 2025-05-27 |   43,627,170 |  45.32 GB |   2.33 GB |        0 |            = |    132 MB |
+| 2025-05-26 |   44,002,905 |  45.17 GB |   2.12 GB |        0 |            = |    123 MB |
+| 2025-05-25 |   41,528,965 |  42.95 GB |   2.06 GB |        0 |            = |    114 MB |
+| 2025-05-24 |   52,460,718 |  54.12 GB |   2.64 GB |        1 |   52,460,719 |    140 MB |
+| 2025-05-23 |   55,846,568 |  57.59 GB |   2.76 GB |        1 |   55,846,569 |    146 MB |
+| 2025-05-22 |   50,627,843 |  52.14 GB |   2.54 GB |        0 |            = |    141 MB |
+| 2025-05-21 |   45,997,409 |  48.30 GB |   2.35 GB |        0 |            = |    133 MB |
+| 2025-05-20 |   46,348,498 |  48.05 GB |   2.29 GB |        0 |            = |    129 MB |
+| 2025-05-19 |   48,019,143 |  48.99 GB |   2.31 GB |        0 |            = |    127 MB |
+| 2025-05-18 |   41,898,807 |  43.01 GB |   2.14 GB |        0 |            = |    115 MB |
+| 2025-05-17 |   43,522,736 |  45.78 GB |   2.33 GB |        0 |            = |    124 MB |
+| 2025-05-16 |   45,811,856 |  46.88 GB |   2.34 GB |        0 |            = |    128 MB |
+| 2025-05-15 |   49,836,980 |  51.33 GB |   2.49 GB |        0 |            = |    130 MB |
+| 2025-05-14 |   47,815,240 |  49.27 GB |   2.40 GB |        0 |            = |    134 MB |
+| 2025-05-13 |   50,601,279 |  52.11 GB |   2.54 GB |        0 |            = |    136 MB |
+| 2025-05-12 |   49,312,402 |  50.54 GB |   2.39 GB |        0 |            = |    130 MB |
+| 2025-05-11 |   43,396,654 |  44.71 GB |   2.17 GB |        0 |            = |    110 MB |
+| 2025-05-10 |   68,437,498 |  70.11 GB |   3.23 GB |        0 |            = |    189 MB |
+| 2025-05-09 |   73,207,646 |  74.91 GB |   3.48 GB |        0 |            = |    190 MB |
+| 2025-05-08 |   63,930,588 |  65.68 GB |   3.09 GB |        0 |            = |    170 MB |
+| 2025-05-07 |   58,377,069 |  59.83 GB |   2.86 GB |        0 |            = |    151 MB |
+| 2025-05-06 |   43,067,645 |  44.07 GB |   2.14 GB |        0 |            = |    115 MB |
+| 2025-05-05 |   47,881,388 |  48.97 GB |   2.28 GB |        0 |            = |    127 MB |
+| 2025-05-04 |   49,286,185 |  50.40 GB |   2.42 GB |        0 |            = |    129 MB |
 | 2025-05-03 |   52,357,558 |  54.03 GB |   2.55 GB |        0 |            = |    133 MB |
 | 2025-05-02 |   64,048,591 |  65.60 GB |   2.99 GB |        0 |            = |    152 MB |
 | 2025-05-01 |   52,642,736 |  55.12 GB |   2.73 GB |        0 |            = |    155 MB |
@@ -715,6 +774,8 @@ The table is updated from time to time based on the conversion logs.
     Original Line: 29f17782-3d6b-42f7-875d-d70aedecdbfb,"[""DECISION_VISIBILITY_CONTENT_DISABLED""]",,,,,,,,,,ACCOUNT_TYPE_BUSINESS,DECISION_GROUND_INCOMPATIBLE_CONTENT,,,,"Controlled Product","尊敬的全球速卖通卖家：\n该商品具体违规原因为：\n1.标签不合规\n- 关于标准 NF EN 71-1 的第 7.1 点，在本标准规定的年龄排除（0 - 36 个月）警告 7.2 之前缺少“注意”一词；\n- 标准 NF EN 71-1 的年龄排除警告 7.2 不正确。它不是用法语写的。\n2.窒息风险：\n-不符合EN 71-1第5.1b点，小元件（板边缘的泡沫片）存在摄入风险。\n基于速卖通平台商品政策要求，平台对该商品执行了欧盟屏蔽，如您对处罚有异议，您可在处罚后通过商家后台违规中心发起线上申诉，申诉时请提交CE/UKCA相关资质文件，包括检测报告，外包装标签及认证证书或符合性声明DoC（DoP），感谢您的理解与配合!\nDear AliExpress sellers:\nThe specific reasons for the violation of this product are:\n1. Label non-compliance\n- Regarding point 7.1 of standard NF EN 71-1, the word \"Caution\" is missing before warning 7.2 on age exclusion (0 - 36 months) specified in this standard;\n- Warning 7.2 on age exclusion of standard NF EN 71-1 is incorrect. It is not written in French.\n2. Choking risk:\n- Point 5.1b of EN 71-1 is not met, and small components (foam sheets on the edge of the board) pose an ingestion risk.\nBased on the product policy requirements of the AliExpress platform, the platform has implemented EU shielding for this product. If you have any objections to the penalty, you can file an online appeal through the merchant backend violation center after the penalty. When appealing, please submit CE/UKCA related qualification documents, including test reports, outer packaging labels and certification certificates or Declaration of Conformity DoC (DoP). Thank you for your understanding and cooperation!",No,STATEMENT_CATEGORY_UNSAFE_AND_ILLEGAL_PRODUCTS,,,,"[""CONTENT_TYPE_PRODUCT""]",,,"2020-12-02 00:00:00","[""AT"",""BE"",""BG"",""CY"",""CZ"",""DE"",""DK"",""EE"",""ES"",""FI"",""FR"",""GR"",""HR"",""HU"",""IE"",""IT"",""LT"",""LU"",""LV"",""MT"",""NL"",""PL"",""PT"",""RO"",""SE"",""SI"",""SK""]","2024-12-30 00:00:00","\n该商品具体违规原因为：\n1.标签不合规\n- 关于标准 NF EN 71-1 的第 7.1 点，在本标准规定的年龄排除（0 - 36 个月）警告 7.2 之前缺少“注意”一词；\n- 标准 NF EN 71-1 的年龄排除警告 7.2 不正确。它不是用法语写的。\n2.窒息风险：\n-不符合EN 71-1第5.1b点，小元件（板边缘的泡沫片）存在摄入风险。\n基于速卖通平台商品政策要求，平台对该商品执行了欧盟屏蔽，如您对处罚有异议，您可在处罚后通过商家后台违规中心发起线上申诉，申诉时请提交CE/UKCA相关资质文件，包括检测报告，外包装标签及认证证书或符合性声明DoC（DoP），感谢您的理解与配合!\nDear AliExpress sellers:\nThe specific reasons for the violation of this product are:\n1. Label non-compliance\n- Regarding point 7.1 of standard NF EN 71-1, the word \"Caution\" is missing before warning 7.2 on age exclusion (0 - 36 months) specified in this standard;\n- Warning 7.2 on age exclusion of standard NF EN 71-1 is incorrect. It is not written in French.\n2. Choking risk:\n- Point 5.1b of EN 71-1 is not met, and small components (foam sheets on the edge of the board) pose an ingestion risk.\nBased on the product policy requirements of the AliExpress platform, the platform has implemented EU shielding for this product. If you have any objections to the penalty, you can file an online appeal through the merchant backend violation center after the penalty. When appealing, please submit CE/UKCA related qualification documents, including test reports, outer packaging labels and certification certificates or Declaration of Conformity DoC (DoP). Thank you for your understanding and cooperation!",SOURCE_VOLUNTARY,,Yes,AUTOMATED_DECISION_PARTIALLY,AliExpress,80902213542,"2024-12-30 21:50:14"
 Value with unterminated quote found.
     ```
+- 2025-07-01
+  - The format of the CSV exports changed: a new column `content_id_ean` was added.
 - 
   - ZIP file: []()
   - CSV file: ``
