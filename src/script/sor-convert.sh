@@ -58,6 +58,8 @@ set -e
 for zip in "$@"; do
 
     name="$(basename $zip .zip)"
+    dt_day="${name#sor-global-}"
+    dt_day="${dt_day%-full}"
 
     if [ -e $(dirname $zip)/$name.zstd.parquet ]; then
         if $OVERWRITE; then
@@ -82,8 +84,13 @@ for zip in "$@"; do
         rm "$z"
     done
 
+    FILTER=cat
+    if [[ "$dt_day" < "2025-07-01" ]]; then
+        FILTER='grep -v -e 2025-07-01'
+    fi
+
     LOG__ "Converting CSV to Parquet: $name"
-    if (echo "$DUCKDB_SETTINGS"; sed "s@__NAME__@$name@g" $BINDIR/../sql/convert_csv_parquet.sql) | duckdb; then
+    if (echo "$DUCKDB_SETTINGS"; sed "s@__NAME__@$name@g" $BINDIR/../sql/convert_csv_parquet.sql | $FILTER) | duckdb; then
         : # ok, conversion succeeded
     else
         # conversion failed, try with "ignore_errors"
