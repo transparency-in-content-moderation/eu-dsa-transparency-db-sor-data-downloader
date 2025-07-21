@@ -8,8 +8,10 @@ for efficient storage and querying.
 References:
 - <https://transparency.dsa.ec.europa.eu/>
 - <https://github.com/digital-services-act/transparency-database>
-- related:
+- <https://transparency.dsa.ec.europa.eu/page/research-api>
+- related / similar tools:
   - <https://code.europa.eu/dsa/transparency-database/dsa-tdb>
+  - <https://github.com/apparebit/shantay>
 
 
 ## Requirements
