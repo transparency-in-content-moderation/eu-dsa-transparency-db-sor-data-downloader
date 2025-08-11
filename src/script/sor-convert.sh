@@ -100,6 +100,7 @@ for zip in "$@"; do
     LOG__ "Parquet conversion finished: $name.zstd.parquet"
 
     cd -
+    LOG__ "Moving Parquet file to final location:" $(dirname $zip)/
     mv -v "$TMP_DIR"/"$name"/"$name.zstd.parquet" $(dirname $zip)/
     rm -r "$TMP_DIR"/"$name"/
 

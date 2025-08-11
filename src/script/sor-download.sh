@@ -63,6 +63,7 @@ for i in $(seq 1 $DAYS); do
     cd "$TARGET_LOC"/
     wget --no-verbose --timestamping "$BASE_URL"sor-global-$DATE-full.zip
     wget --no-verbose --timestamping "$BASE_URL"sor-global-$DATE-full.zip.sha1
+    LOG__ "Verifying SHA-1 checksum"
     sha1sum --check sor-global-$DATE-full.zip.sha1
     cd -
 
