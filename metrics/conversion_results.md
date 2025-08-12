@@ -15,8 +15,47 @@ The column "Parq size" shows the size of the Parquet file after the conversion.
 
 |    Date    |     SoRs     |  CSV size |  ZIP size | SoR diff | Convrtd rows | Parq size |
 | :--------- | -----------: | --------: | --------: | -------: | -----------: | --------: |
-| 2025-07-02 |   17,352,388 |  17.77 GB |   0.96 GB |       63 |   17,352,451 |     54 MB |
-| 2025-07-01 |   17,605,854 |  18.35 GB |   0.96 GB |    -2978 |   17,602,876 |     50 MB |
+| 2025-08-10 |   17,366,404 |  18.09 GB |   0.98 GB |      313 |   17,366,717 |     53 MB |
+| 2025-08-09 |   19,520,300 |  20.16 GB |   1.27 GB |        1 |   19,520,301 |     62 MB |
+| 2025-08-08 |   20,515,086 |  21.46 GB |   1.23 GB |        0 |            = |     67 MB |
+| 2025-08-07 |   19,504,955 |  20.94 GB |   1.13 GB |        0 |            = |     62 MB |
+| 2025-08-06 |   22,497,528 |  23.73 GB |   1.28 GB |        0 |            = |     70 MB |
+| 2025-08-05 |   15,905,166 |  17.18 GB |   0.97 GB |      708 |   15,905,874 |     56 MB |
+| 2025-08-04 |   18,189,869 |  19.80 GB |   1.00 GB |       59 |   18,189,928 |     55 MB |
+| 2025-08-03 |   17,253,213 |  18.76 GB |   0.98 GB |        0 |            = |     54 MB |
+| 2025-08-02 |   19,131,263 |  20.62 GB |   1.09 GB |        1 |   19,131,264 |     60 MB |
+| 2025-08-01 |   22,070,910 |  22.52 GB |   1.23 GB |        2 |   22,070,912 |     72 MB |
+| 2025-07-31 |   17,093,788 |  18.22 GB |   0.97 GB |      199 |   17,093,987 |     53 MB |
+| 2025-07-30 |   18,490,809 |  19.11 GB |   1.05 GB |     4159 |   18,494,968 |     57 MB |
+| 2025-07-29 |   17,990,564 |  18.69 GB |   1.04 GB |      143 |   17,990,707 |     59 MB |
+| 2025-07-28 |   16,355,254 |  16.77 GB | 913.78 MB |       11 |   16,355,265 |     51 MB |
+| 2025-07-27 |   18,262,682 |  19.24 GB |   0.96 GB |       12 |   18,262,694 |     51 MB |
+| 2025-07-26 |   17,836,572 |  18.47 GB |   0.95 GB |        9 |   17,836,581 |     53 MB |
+| 2025-07-25 |   16,315,486 |  16.74 GB | 948.22 MB |        0 |            = |     53 MB |
+| 2025-07-24 |   18,421,968 |  18.46 GB |   1.04 GB |        0 |            = |     56 MB |
+| 2025-07-23 |   17,746,282 |  18.25 GB |   0.99 GB |       16 |   17,746,298 |     55 MB |
+| 2025-07-22 |   16,263,266 |  16.72 GB |   0.94 GB |       58 |   16,263,324 |     51 MB |
+| 2025-07-21 |   14,560,149 |  15.25 GB | 827.37 MB |      208 |   14,560,357 |     45 MB |
+| 2025-07-20 |   15,988,851 |  17.00 GB | 885.37 MB |     2912 |   15,991,763 |     46 MB |
+| 2025-07-19 |   16,613,523 |  17.68 GB |   0.94 GB |        0 |            = |     51 MB |
+| 2025-07-18 |   18,755,837 |  19.32 GB |   1.06 GB |        0 |            = |     59 MB |
+| 2025-07-17 |   18,828,196 |  19.44 GB |   1.07 GB |        0 |            = |     59 MB |
+| 2025-07-16 |   16,774,839 |  17.57 GB |   1.03 GB |        0 |            = |     62 MB |
+| 2025-07-15 |   16,848,665 |  17.60 GB |   0.97 GB |        0 |            = |     55 MB |
+| 2025-07-14 |   16,145,186 |  16.77 GB | 944.26 MB |        1 |   16,145,187 |     53 MB |
+| 2025-07-13 |   18,078,423 |  19.81 GB |   1.01 GB |       55 |   18,078,478 |     52 MB |
+| 2025-07-12 |   18,868,825 |  20.76 GB |   1.05 GB |        2 |   18,868,827 |     54 MB |
+| 2025-07-11 |   17,812,831 |  19.41 GB |   1.01 GB |        2 |   17,812,833 |     54 MB |
+| 2025-07-10 |   18,628,347 |  19.02 GB |   1.06 GB |        0 |            = |     60 MB |
+| 2025-07-09 |   18,457,036 |  18.73 GB |   1.09 GB |        0 |            = |     59 MB |
+| 2025-07-08 |   17,540,782 |  18.22 GB |   0.99 GB |        0 |            = |     55 MB |
+| 2025-07-07 |   17,542,512 |  18.53 GB |   0.99 GB |        1 |   17,542,513 |     52 MB |
+| 2025-07-06 |   17,494,591 |  18.49 GB |   0.98 GB |       11 |   17,494,602 |     53 MB |
+| 2025-07-05 |   17,459,698 |  18.43 GB |   0.98 GB |        0 |            = |     53 MB |
+| 2025-07-04 |   18,520,159 |  18.91 GB |   1.03 GB |        0 |            = |     54 MB |
+| 2025-07-03 |   22,032,534 |  23.04 GB |   1.23 GB |        0 |            = |     62 MB |
+| 2025-07-02 |   17,352,388 |  17.77 GB |   0.96 GB |       63 |   17,352,451 |     53 MB |
+| 2025-07-01 |   17,605,854 |  18.35 GB |   0.96 GB |    -2978 |   17,602,876 |     51 MB |
 | 2025-06-30 |   16,686,912 |  17.00 GB |   0.96 GB |     3019 |   16,689,931 |     59 MB |
 | 2025-06-29 |   18,120,866 |  18.59 GB |   1.02 GB |        0 |            = |     59 MB |
 | 2025-06-28 |   17,532,514 |  18.25 GB |   1.02 GB |        0 |            = |     59 MB |
@@ -772,11 +811,11 @@ The table is updated from time to time based on the conversion logs.
     ```
     Invalid Input Error: CSV Error on Line: 98935
     Original Line: 29f17782-3d6b-42f7-875d-d70aedecdbfb,"[""DECISION_VISIBILITY_CONTENT_DISABLED""]",,,,,,,,,,ACCOUNT_TYPE_BUSINESS,DECISION_GROUND_INCOMPATIBLE_CONTENT,,,,"Controlled Product","尊敬的全球速卖通卖家：\n该商品具体违规原因为：\n1.标签不合规\n- 关于标准 NF EN 71-1 的第 7.1 点，在本标准规定的年龄排除（0 - 36 个月）警告 7.2 之前缺少“注意”一词；\n- 标准 NF EN 71-1 的年龄排除警告 7.2 不正确。它不是用法语写的。\n2.窒息风险：\n-不符合EN 71-1第5.1b点，小元件（板边缘的泡沫片）存在摄入风险。\n基于速卖通平台商品政策要求，平台对该商品执行了欧盟屏蔽，如您对处罚有异议，您可在处罚后通过商家后台违规中心发起线上申诉，申诉时请提交CE/UKCA相关资质文件，包括检测报告，外包装标签及认证证书或符合性声明DoC（DoP），感谢您的理解与配合!\nDear AliExpress sellers:\nThe specific reasons for the violation of this product are:\n1. Label non-compliance\n- Regarding point 7.1 of standard NF EN 71-1, the word \"Caution\" is missing before warning 7.2 on age exclusion (0 - 36 months) specified in this standard;\n- Warning 7.2 on age exclusion of standard NF EN 71-1 is incorrect. It is not written in French.\n2. Choking risk:\n- Point 5.1b of EN 71-1 is not met, and small components (foam sheets on the edge of the board) pose an ingestion risk.\nBased on the product policy requirements of the AliExpress platform, the platform has implemented EU shielding for this product. If you have any objections to the penalty, you can file an online appeal through the merchant backend violation center after the penalty. When appealing, please submit CE/UKCA related qualification documents, including test reports, outer packaging labels and certification certificates or Declaration of Conformity DoC (DoP). Thank you for your understanding and cooperation!",No,STATEMENT_CATEGORY_UNSAFE_AND_ILLEGAL_PRODUCTS,,,,"[""CONTENT_TYPE_PRODUCT""]",,,"2020-12-02 00:00:00","[""AT"",""BE"",""BG"",""CY"",""CZ"",""DE"",""DK"",""EE"",""ES"",""FI"",""FR"",""GR"",""HR"",""HU"",""IE"",""IT"",""LT"",""LU"",""LV"",""MT"",""NL"",""PL"",""PT"",""RO"",""SE"",""SI"",""SK""]","2024-12-30 00:00:00","\n该商品具体违规原因为：\n1.标签不合规\n- 关于标准 NF EN 71-1 的第 7.1 点，在本标准规定的年龄排除（0 - 36 个月）警告 7.2 之前缺少“注意”一词；\n- 标准 NF EN 71-1 的年龄排除警告 7.2 不正确。它不是用法语写的。\n2.窒息风险：\n-不符合EN 71-1第5.1b点，小元件（板边缘的泡沫片）存在摄入风险。\n基于速卖通平台商品政策要求，平台对该商品执行了欧盟屏蔽，如您对处罚有异议，您可在处罚后通过商家后台违规中心发起线上申诉，申诉时请提交CE/UKCA相关资质文件，包括检测报告，外包装标签及认证证书或符合性声明DoC（DoP），感谢您的理解与配合!\nDear AliExpress sellers:\nThe specific reasons for the violation of this product are:\n1. Label non-compliance\n- Regarding point 7.1 of standard NF EN 71-1, the word \"Caution\" is missing before warning 7.2 on age exclusion (0 - 36 months) specified in this standard;\n- Warning 7.2 on age exclusion of standard NF EN 71-1 is incorrect. It is not written in French.\n2. Choking risk:\n- Point 5.1b of EN 71-1 is not met, and small components (foam sheets on the edge of the board) pose an ingestion risk.\nBased on the product policy requirements of the AliExpress platform, the platform has implemented EU shielding for this product. If you have any objections to the penalty, you can file an online appeal through the merchant backend violation center after the penalty. When appealing, please submit CE/UKCA related qualification documents, including test reports, outer packaging labels and certification certificates or Declaration of Conformity DoC (DoP). Thank you for your understanding and cooperation!",SOURCE_VOLUNTARY,,Yes,AUTOMATED_DECISION_PARTIALLY,AliExpress,80902213542,"2024-12-30 21:50:14"
-Value with unterminated quote found.
+    Value with unterminated quote found.
     ```
 - 2025-07-01
-  - The format of the CSV exports changed: a new column `content_id_ean` was added.
-- 
+  - The format of the CSV exports changed: a new column `content_id_ean` was added. The data format is not documented. Presumably it's [EAN-13](https://en.wikipedia.org/wiki/International_Article_Number).
+- (placeholder for new entry)
   - ZIP file: []()
   - CSV file: ``
   - error message (note: the error may also relate to the following line)
